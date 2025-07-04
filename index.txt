@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Únete a Nuestro Equipo</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="container">
+    <h1>¡Forma parte del equipo de Nay RH!</h1>
+    <p>Regístrate para recibir información y oportunidades laborales.</p>
+    
+    <form action="https://formsubmit.co/astuanay@gmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="text" name="nombre" placeholder="Nombre completo" required>
+      <input type="email" name="correo" placeholder="Correo electrónico" required>
+      <input type="tel" name="telefono" placeholder="Número de teléfono" required>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>
